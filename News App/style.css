@@ -1,0 +1,277 @@
+/* Importing Google Fonts for custom typography */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+/* Global reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS variables for color scheme */
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: rgb(218, 198, 198);
+    --accent-color: #2294ed;
+    --accent-color-dark: #204561;
+}
+
+/* Body styles */
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-text-color);
+}
+
+/* Paragraph styles */
+p {
+    font-family: "Roboto", sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.4rem;
+}
+
+/* Anchor styles */
+a {
+    text-decoration: none;
+}
+
+/* Unordered list styles */
+ul {
+    list-style: none;
+}
+
+/* Flex container styles */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Container for limiting content width */
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+/* Navigation bar styles */
+nav {
+    background: linear-gradient(90deg, #FF512F, #DD2476);
+    box-shadow: 0 0 4px #bbd0e2, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+/* Main navigation styles */
+.main-nav {
+    justify-content: space-around;
+    padding-block: 8px;
+    color: black;
+}
+
+/* Company logo styles */
+.company-logo img {
+    width: 80px;
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* Navigation links styles */
+.nav-links ul {
+    gap: 48px;
+}
+
+/* Styles for hover effect on links */
+.hover-link {
+    cursor: pointer;
+}
+
+.hover-link:hover {
+    color: var(--secondary-text-color);
+}
+
+.hover-link:active {
+    color: red;
+}
+
+/* Styles for active navigation item */
+.nav-item.active {
+    color: var(--accent-color);
+}
+
+/* Styles for search bar */
+.search-bar {
+    height: 32px;
+    gap: 8px;
+}
+
+/* Input field styles within search bar */
+.news-input {
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family: "Roboto", sans-serif;
+    height: 45px;
+    background-color: rgb(30, 27, 27);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+/* Styles for search button */
+.search-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hover effect for search button */
+.search-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+/* Main content area styles */
+main {
+    padding-block: 20px;
+    margin-top: 60px;
+    background-color: black;
+}
+
+/* Styles for container holding news cards */
+.cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* Styles for individual news cards */
+.card {
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #d4b7b1;
+}
+
+/* Hover effect for news cards */
+.card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+/* Styles for images within news card headers */
+.card-header img {
+    padding: 5px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+/* Styles for content within news cards */
+.card-content {
+    padding: 12px;
+}
+
+/* Styles for news sources within news cards */
+.news-source {
+    margin-block: 12px;
+}
+
+/* Styles for headlines within news cards */
+.card-content>h3 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(15, 15, 15);
+}
+
+/* Styles for subheadings within news cards */
+.card-content>h6 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Styles for paragraph text within news cards */
+.card-content>p {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(5, 5, 5);
+    font-weight: 400;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Styles for navigation links */
+.nav-links>ul>li {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* Hover effect for navigation links */
+.nav-links>ul>li:hover {
+    color: black;
+}
+
+/* Styles for button-92 */
+.button-92 {
+    --c: #fff;
+    /* text color */
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat, #004dff;
+    /* background color */
+    color: #0000;
+    border: none;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i, -1)));
+    text-shadow: calc(var(--_i, -1)* 0.08em) -.01em 0 var(--c), calc(var(--_i, -1)*-0.08em) .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* Hover and focus-visible effects for button-92 */
+.button-92:hover,
+.button-92:focus-visible {
+    --_p: 0%;
+    --_i: 1;
+}
+
+/* Active effect for button-92 */
+.button-92:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q #0005;
+    transition: 0s;
+}
+
+/* Additional styles for button-92 */
+.button-92 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    cursor: pointer;
+    padding: .1em .3em;
+}
