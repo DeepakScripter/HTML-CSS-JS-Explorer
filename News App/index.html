@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 News App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baskervville:ital@0;1&family=Bungee+Shade&family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap "
+        rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<nav>
+    <div class="main-nav flex">
+        <!-- Company logo -->
+        <a href="#" onclick="reload()" class="company-logo">
+            <img src="./assets/logo.png" alt="company logo">
+        </a>
+        <!-- Navigation links -->
+        <div class="nav-links">
+            <ul class="flex">
+                <!-- Navigation items -->
+                <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
+                <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+            </ul>
+        </div>
+        <!-- Search bar -->
+        <div class="search-bar flex">
+            <!-- Input for search -->
+            <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+            <!-- Search button -->
+            <button class="search-button button-92">Search</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Main content area -->
+<main>
+    <!-- Container for news cards -->
+    <div class="cards-container container flex" id="cards-container"></div>
+</main>
+
+<!-- Template for News Card -->
+<template id="template-news-card">
+    <!-- Individual news card -->
+    <div class="card">
+        <!-- Card header with news image -->
+        <div class="card-header">
+            <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+        </div>
+        <!-- Card content with news title, source, and description -->
+        <div class="card-content">
+            <h3 id="news-title">This is the Title</h3>
+            <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+            <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+        </div>
+    </div>
+</template>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
