@@ -15,7 +15,6 @@ async function fetchNews(query) {
   const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
   const data = await res.json();
   bindData(data.articles);
-  
 }
 
 // Function to bind fetched news data to HTML
@@ -78,4 +77,9 @@ searchButton.addEventListener("click", () => {
   curSelectedNav?.classList.remove("active");
   curSelectedNav = null;
 });
+var a = 10;
+var b = 1;
+var c = a-b;
 
+console.log(a);
+console.log(c);
