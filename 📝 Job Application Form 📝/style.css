@@ -1,0 +1,181 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times, Times New Roman, serif;
+  /* Added custom font */
+}
+
+/* Body styles */
+body {
+  background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+  /* Changed background color */
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Apply box styles */
+.apply_box {
+  max-width: 600px;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #ff6969, #ff8c8c);
+  /* Linear gradient background */
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Small title styles */
+.title_small {
+  font-size: 20px;
+}
+
+/* Form container styles */
+.form_container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Form control styles */
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styles */
+label {
+  font-size: 18px;
+  /* Increased font size */
+  margin-bottom: 10px;
+  /* Increased margin */
+  text-shadow: 2px 2px 5px rgba(223, 192, 192, 0.7);
+  /* Made text shadow slightly transparent */
+  font-weight: bold;
+  /* Added font weight */
+  color: #141212;
+  /* Changed text color to white */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Added text shadow */
+}
+
+/* Input, select, and textarea styles */
+input,
+select,
+textarea {
+  padding: 10px 15px;
+  /* Increased padding */
+  border: none;
+  /* Removed border */
+  border-radius: 8px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Decreased font size */
+  background-color: #ffffff;
+  /* Changed background color to white */
+  color: #333333;
+  /* Changed text color to dark gray */
+  transition: all 0.3s ease;
+  /* Added transition */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /* Added box shadow */
+  text-align: center;
+  /* Centered text */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Input focus styles */
+input:focus {
+  outline: none;
+  /* Removed outline */
+  box-shadow: 0 0 10px #ff6969;
+  /* Added focus effect */
+}
+
+/* Button container styles */
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #ff6969;
+  /* Changed button color */
+  border: none;
+  /* Removed border */
+  padding: 10px 20px;
+  /* Increased padding */
+  color: #ffffff;
+  /* Changed text color to white */
+  border-radius: 8px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Decreased font size */
+  transition: all 0.3s ease;
+  /* Added transition */
+}
+
+/* Button hover styles */
+button:hover {
+  background-color: #1c1818;
+  /* Darkened button color on hover */
+  cursor: pointer;
+  /* Added pointer cursor */
+}
+
+/* Textarea control styles */
+.textarea_control {
+  grid-column: 1 / span 2;
+}
+
+/* Textarea styles */
+.textarea_control textarea {
+  width: 100%;
+  height: 150px;
+  /* Increased textarea height */
+  resize: none;
+  /* Disabled textarea resize */
+}
+
+/* Responsive styles */
+@media (max-width: 460px) {
+  .textarea_control {
+    grid-column: 1 / span 1;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Additional Styles */
+h1 {
+  text-align: center;
+  color: rgb(231, 222, 222);
+  text-shadow: 2px 2px 4px #000000;
+}
