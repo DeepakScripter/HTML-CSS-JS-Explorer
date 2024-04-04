@@ -21,7 +21,7 @@ git clone https://github.com/DeepakScripter/HTML-CSS-JS-Explorer/tree/8979782198
 
 ## 📸 Screenshots
 
-![Job Application Form](screenshots/Screenshot 2024-04-04 221631.png)
+![Job Application Form](screenshots/job-application-.png)
 
 ## 🤝 Contributing
 
