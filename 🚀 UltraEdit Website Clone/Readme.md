@@ -10,6 +10,10 @@ This repository contains a clone of the UltraEdit website created using HTML and
 - **Newsletter Signup:** Users can sign up for the UltraEdit newsletter by providing their email address.
 - **Language and User Type Selection:** Users can select their preferred programming language and user type, providing a personalized experience.
 
+## 📸 Screenshots
+
+![Ultere website clone](127.0.0.1_5500_%25F0%259F%259A%2580%2520UltraEdit%2520Website%2520Clone_index.html.png)
+
 
 ### Installation
 
