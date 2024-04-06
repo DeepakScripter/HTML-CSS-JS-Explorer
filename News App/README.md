@@ -15,6 +15,9 @@
 🔎 - Search for news articles using keywords
 📱 - Responsive design for mobile and desktop devices
 
+
+
+
 ## Setup Instructions
 1. Clone the repository to your local machine.
 2. Open the project folder in your code editor.
