@@ -19,6 +19,10 @@ This is a sample restaurant website project showcasing a fictional restaurant ca
 ## Usage
 To view the website locally, simply open the `index.html` file in a web browser.
 
+## 📸 Screenshots
+
+![Job Application Form](images/127.0.0.1_5500_%25F0%259F%259A%2580%2520FastFuel%2520Cafe%2520b%2520%25F0%259F%258D%2594%25F0%259F%25A5%25A4_index.html%20(1).png)
+
 ## Credits
 - **Font Awesome**: 🌟 Used for icons in the navigation and footer sections.
 - **Images**: 📷 Image credits go to their respective owners.
