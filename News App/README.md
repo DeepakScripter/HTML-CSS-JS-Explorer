@@ -16,7 +16,9 @@
 📱 - Responsive design for mobile and desktop devices
 
 
+## 📸 Screenshots
 
+![News App](assets/Screenshot%202024-04-08%20134206.png)
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
