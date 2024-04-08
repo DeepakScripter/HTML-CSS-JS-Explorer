@@ -14,7 +14,8 @@ This web page features an animated background video and beautiful Holi wishes di
 
 ## 📸 Screenshots
 
-![Holi hai](Asset/y2mate.com%20-%20Happy%20Holi%20Animated%20GreetingsHoli%20Animated%20VideoHappy%20Holi%20Animated_1080p.mp4)
+[Link to Happy Holi Animated Greetings Video](Asset/y2mate.com%20-%20Happy%20Holi%20Animated%20GreetingsHoli%20Animated%20VideoHappy%20Holi%20Animated_1080p.mp4)
+
 
 ## Usage
 
