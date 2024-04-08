@@ -12,8 +12,7 @@ This web page features an animated background video and beautiful Holi wishes di
 - Animated background video
 - Stylish Holi wishes with text animations
 
-## 📸 Screenshots
-[![Happy Holi Animated Greetings Video](https://github.com/DeepakScripter/HTML-CSS-JS-Explorer/raw/a52e4e1efc26e9dc8dc285b263533c73e756de19/Holi%20Hai/Asset/y2mate.com%20-%20Happy%20Holi%20Animated%20GreetingsHoli%20Animated%20VideoHappy%20Holi%20Animated_1080p.mp4)]
+
 
 ## Usage
 
