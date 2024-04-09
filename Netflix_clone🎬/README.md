@@ -28,7 +28,6 @@ This is a simple HTML/CSS webpage showcasing the features of Netflix in India.
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername) 💻
-- [Another Contributor](https://github.com/anotherusername) 🧑‍💼
+- [Deepak vishwakarma](https://github.com/DeepakScripter/HTML-CSS-JS-Explorer/tree/e6e697131efdaa9ce1adfc823d9a00657d9ad5a7/Netflix_clone%F0%9F%8E%AC) 💻🧑‍💼
 
 For more information, visit the [Netflix India website](https://www.netflix.com/in/). 🌐
